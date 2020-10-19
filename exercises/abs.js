@@ -11,6 +11,14 @@
 
 // Your code:
 
+function abs(arg) {
+	if (arg<0) {
+		return -arg;
+	} else {
+		return arg;
+	}
+}
+
 //* Begin of tests
 const assert = require('assert');
 

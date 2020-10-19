@@ -10,6 +10,15 @@
  */
 
 // Your code:
+function max(n1, n2) {
+	var test = n1 - n2;
+	if (test < 0) {
+		return n2;
+	} else {
+		return n1;
+	}
+	// body...
+}
 
 //* Begin of tests
 const assert = require('assert');

@@ -7,7 +7,13 @@
  */
 
 // Your code:
-
+function total(arg) {
+	var total = 0;
+	for (var i = arg.length - 1; i >= 0; i--) {
+		total = total +arg[i];
+	}
+	return total;
+}
 //* Begin of tests
 const assert = require('assert');
 

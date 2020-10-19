@@ -10,6 +10,14 @@
  */
 
 // Your code:
+function min(n1, n2) {
+	var test = n1 -n2;
+	if (test<0) {
+		return n1;
+	} else {
+		return n2;
+	}
+}
 
 //* Begin of tests
 const assert = require('assert');
