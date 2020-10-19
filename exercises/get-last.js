@@ -8,6 +8,12 @@
  */
 
 // Your code:
+function getLast(arg) {
+	for (var i = 0; i < arg.length; i++) {
+		var result = arg[i];
+	}
+	return result;
+}
 
 //* Begin of tests
 const assert = require('assert');
