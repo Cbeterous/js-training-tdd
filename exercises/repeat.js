@@ -8,6 +8,15 @@
  */
 
 // Your code:
+function repeat(str, nb) {
+	let result = '';
+	let i = 0;
+	while (i < nb) {
+		result = result + str;
+		i++;
+	}
+	return result;
+}
 
 //* Begin of tests
 const assert = require('assert');

@@ -8,6 +8,15 @@
 
 // Your code:
 
+function sentence(arr) {
+	let result = '';
+	result = arr[0];
+	for (var i = 1; i < arr.length; i++) {
+		result = result + ' ' + arr[i];
+	}
+	return result; 
+}
+
 //* Begin of tests
 const assert = require('assert');
 

@@ -10,7 +10,17 @@
  */
 
 // Your code:
-
+function multiply(x, n) {
+	if (n==0 || x==0) {
+    return 0;
+  } else if ( n>0){
+  	return x + multiply(x, n - 1);
+  } 
+  else {
+    return - x + multiply(x, n + 1);
+  }
+	
+}
 //* Begin of tests
 const assert = require('assert');
 

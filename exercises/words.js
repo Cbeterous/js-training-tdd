@@ -8,6 +8,12 @@
 
 // Your code:
 
+function words(str) {
+	// body...
+	let result = str.split(' ');
+	return result;
+}
+
 //* Begin of tests
 const assert = require('assert');
 

@@ -8,6 +8,12 @@
  */
 
 // Your code:
+function capitalize(arg) {
+	// body...
+	var min = arg.toLowerCase();
+	var maj = arg[0].toUpperCase();
+	return maj + min.substring(1);
+}
 
 //* Begin of tests
 const assert = require('assert');

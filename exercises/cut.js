@@ -12,8 +12,25 @@
 
 // Your code:
 
+function cutFirst(str) {
+	let result = str.slice(2);
+	return result;
+}
+function cutLast(str) {
+	// body...
+	let result = str.slice(0, -2);
+	return result;
+}
+function cutFirstLast(str) {
+	// body...
+	let result = str.slice(2, -2);
+	return result;
+}
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+//assert.fail('You must write your own tests');
+assert.strictEqual(cutFirst('ErtfEpp'), 'tfEpp');
+assert.strictEqual(cutLast('ErtfEpp'), 'ErtfE');
+assert.strictEqual(cutFirstLast('ErtfEpp'), 'tfE');
 // End of tests */

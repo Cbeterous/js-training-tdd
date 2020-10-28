@@ -8,9 +8,14 @@
  */
 
 // Your code:
+function whisper(str) {
+	let result = '*'+str.toLowerCase()+'*';
+	return result; 
+}
 
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+//assert.fail('You must write your own tests');
+assert.strictEqual(whisper('ErtfEpp'), '*ertfepp*');
 // End of tests */
